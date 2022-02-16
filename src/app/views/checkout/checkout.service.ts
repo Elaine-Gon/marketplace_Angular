@@ -13,7 +13,7 @@ export class CheckoutService {
   constructor(private httpClient: HttpClient) { 
   }
 
-  getListFilms(): Observable<Film> {
-    return this.httpClient.get<Film>(this.baseUrl+'/films')
+  getListFilms(): Observable<Film[]> {
+    return this.httpClient.get<Film[]>(this.baseUrl+'/films');
   }
 }
