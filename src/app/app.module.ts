@@ -14,6 +14,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { CardFilmComponent } from './components/template/card-film/card-film.component';
+import { ListFilmsComponent } from './views/list-films/list-films.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { CardFilmComponent } from './components/template/card-film/card-film.com
     NavComponent,
     HomeComponent,
     CardFilmComponent,
+    ListFilmsComponent,
   ],
   imports: [
     BrowserModule,
