@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #2C2C2C;
+  height: 100px;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.logo {
+  width: 130px;
+  opacity: .8;
+  transition: .2s;
+}
+
+.logo:hover{
+  opacity: 1;
+  width: 150px;
+}
+
+.title-group {
+  padding-left: 25px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.header .title-group i {
+  padding-right: 5px;
+}
