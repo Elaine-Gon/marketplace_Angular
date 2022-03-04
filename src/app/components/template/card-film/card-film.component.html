@@ -10,7 +10,7 @@
       <img src="{{film.imgLink}}" alt="capa"/> 
       <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nisi pariatur quaerat quos! Expedita saepe eos fuga porro labore, quasi odio vero numquam, magni, sequi error quaerat sit assumenda esse.</p>
       <p class="card-description">
-        {{film.price}}
+        {{film.price | currency: "BRL"}}
       </p>
       <app-select-button (click)="selectFilm(film)"></app-select-button>
     </mat-card-content>

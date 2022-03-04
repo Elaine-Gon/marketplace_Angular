@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { HomeComponent } from './views/home/home.component';
 import { CardFilmComponent } from './components/template/card-film/card-film.component';
 import { ListFilmsComponent } from './views/list-films/list-films.component';
 import { SelectButtonComponent } from './components/template/select-button/select-button.component';
+import { CheckoutComponent } from './views/checkout/checkout.component';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { SelectButtonComponent } from './components/template/select-button/selec
     CardFilmComponent,
     ListFilmsComponent,
     SelectButtonComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +53,7 @@ import { SelectButtonComponent } from './components/template/select-button/selec
     MatFormFieldModule,
     MatInputModule,
     MatBadgeModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

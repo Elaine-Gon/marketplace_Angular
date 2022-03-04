@@ -9,3 +9,10 @@
     <app-card-film></app-card-film>
   </mat-card-content>
 </mat-card>
+<div class="fab-button">
+  <button mat-fab color="primary" matBadge="{{toggleCount()}}" matBadgePosition="after" matBadgeColor="accent" [matBadgeHidden]="hidden" (mouseover)="toggleBadgeVisibility()" (mouseout)="toggleBadgeVisibility()" (click)="toCheckout()">
+    <i class="material-icons"> shopping_cart </i>
+    <p class="btn-description">To Checkout!</p>
+  </button>
+</div>
+

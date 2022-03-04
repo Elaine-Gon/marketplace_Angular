@@ -1,0 +1,56 @@
+.mat-card-main {
+  background-color: #2C2C2C;
+  color: #F2F2F2;
+}
+
+.mat-card-film.isValid {
+  display: none;
+
+}
+
+.mat-card-film:hover {
+  background-color: #F2F2F2;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.actions-container {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.excludeAll {
+  margin-left: 10px;
+}
+
+.input-form {
+  width: 300px;
+  margin: 10px 15px;
+}
+
+.mat-pay {
+  background-color: #93da81;
+  color: #F2F2F2;
+  margin: 10px 15px;
+}
+
+.mat-cancel {
+  background-color: #d45066;
+  color: #F2F2F2;
+}
+
+.selected {
+  margin: 15px;
+}
