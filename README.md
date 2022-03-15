@@ -1,6 +1,6 @@
 # MarketplaceAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Projeto Web construido em cima do framework Angular.
 
 ## Development server
 
