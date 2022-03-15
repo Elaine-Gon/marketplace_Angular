@@ -3,6 +3,7 @@ import { HomeComponent } from './views/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CheckoutComponent } from './views/checkout/checkout.component';
+import { AboutComponent } from './views/about/about.component';
 
 const routes: Routes = [{
   path: "",
@@ -15,7 +16,12 @@ const routes: Routes = [{
 {
   path: "checkout",
   component: CheckoutComponent
-}];
+},
+{
+  path: "about",
+  component: AboutComponent
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

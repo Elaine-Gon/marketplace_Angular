@@ -1,0 +1,41 @@
+.mat-card-header {
+ width: 100vw;
+
+ display: flex;
+ align-items: center;
+} 
+
+.mat-card-avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.mat-card-header-text {
+  margin-left: -10px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p {
+ 
+  font-family: Roboto;
+  font-size: 16px;
+  color: #555454;
+}
+
+.mat-card-content {
+  margin-top: 1rem;
+}
+
+.mat-card-title {
+  color: #2e2d2d;
+}
+
+.mat-card-text {
+  color: #000000;
+  font-size: 1.1rem;
+}
